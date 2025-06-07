@@ -1,11 +1,38 @@
+/**
+* Created by Clion.
+* User: huc0day
+* Date: 5-6-25
+* Time: 上午11:36
+*/
+﻿
 /*
+=======================================================================================================
+Remote_control_proxy_server is a proxy program for a remote control management framework.
+Copyright (C) 2024-2025, huc0day (Chinese name: GaoJian).
+All rights reserved.
+﻿
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+﻿
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY;   without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.    See the
+GNU General Public License for more details.
+﻿
+You should have received a copy of the GNU General Public License
+along with this program.    If not, see <https://www.gnu.org/licenses/>.
+=======================================================================================================
+*/
+
 //架构特点：
 //
 ‌//高效端口复用‌：单进程管理多监听端口
 ‌//灵活通信机制‌：通过全局客户端集合实现跨端口消息路由
 ‌//线程安全保证‌：互斥锁保护共享数据结构
 ‌//扩展性强‌：支持动态增删监听端口（通过信号驱动配置重载）
-*/
+
 //
 //包含头文件
 #include <stdio.h>
